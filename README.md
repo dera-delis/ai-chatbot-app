@@ -50,7 +50,7 @@ This frontend delivers a premium AI chat experience: sidebar navigation, history
 - Monochrome base with soft accents
 - Spacious typography and rhythm
 - Subtle motion (Framer Motion)
-- WhatsApp-style emoji picker
+- Focus-first layout inspired by modern AI products (ChatGPT, Linear, Arc)
 
 ---
 
