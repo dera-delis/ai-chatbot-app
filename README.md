@@ -1,37 +1,82 @@
-# AI Chat Frontend
+# 💬 **AI Chat Frontend**
 
-Minimal, premium-grade chat interface for an authenticated AI assistant. Built with Next.js 14 (App Router), TypeScript, Tailwind CSS, Framer Motion, and Axios.
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-black?logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![Axios](https://img.shields.io/badge/Axios-1.7-5A29E4?logo=axios&logoColor=white)](https://axios-http.com/)
 
-## Features
-- JWT-based authentication flow
-- Protected `/chat` route with conversation history
-- Clean chat shell UI (sidebar + main panel)
-- Optimistic messaging and typing indicator
-- Subtle motion and calm, monochrome design
+A calm, premium chat interface that consumes the **AI Chatbot API**. Built to feel like a modern 2025/2026 product—clean, focused, and fast.
 
-## Architecture
+> ✨ **Minimal UI** · 🧠 **Conversation Memory** · 🔐 **JWT Auth** · 🎞️ **Subtle Motion**
+
+---
+
+## 📌 **Table of Contents**
+- [✨ Overview](#-overview)
+- [🏗️ Architecture](#️-architecture)
+- [🎨 Design System](#-design-system)
+- [✅ Features](#-features)
+- [⚙️ Environment](#️-environment)
+- [🚀 Development](#-development)
+- [📦 Production](#-production)
+- [🚀 Deployment](#-deployment)
+
+---
+
+## ✨ **Overview**
+This frontend delivers a premium AI chat experience: sidebar navigation, history-aware sessions, and a focused chat surface. Designed for clarity, not clutter.
+
+---
+
+## 🏗️ **Architecture**
 - `app/lib/api.ts`: Axios API client
 - `app/lib/auth-context.tsx`: Auth state + login/signup/logout
 - `app/lib/chat-context.tsx`: Chat state + history/send
-- `app/components/`: UI building blocks
-- `app/login`, `app/signup`, `app/chat`: routes
+- `app/components/`: Chat shell UI components
+- `app/login`, `app/signup`, `app/chat`: App Router pages
 
-## Environment
+---
+
+## 🎨 **Design System**
+- Monochrome base with soft accents
+- Spacious typography and rhythm
+- Subtle motion (Framer Motion)
+- WhatsApp-style emoji picker
+
+---
+
+## ✅ **Features**
+- JWT-based authentication flow
+- Protected `/chat` route with conversation history
+- Pinned sidebar with new chat + logout
+- Optimistic message rendering + typing indicator
+- ChatGPT-like scroll-to-bottom behavior
+
+---
+
+## ⚙️ **Environment**
 Create `.env.local`:
-```
+```env
 NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
-## Development
-```
+---
+
+## 🚀 **Development**
+```bash
 npm run dev
 ```
 
-## Production
-```
+---
+
+## 📦 **Production**
+```bash
 npm run build
 npm run start
 ```
 
-## Deployment
+---
+
+## 🚀 **Deployment**
 Deploy to Vercel with `NEXT_PUBLIC_API_URL` set to your API host.
