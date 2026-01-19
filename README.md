@@ -5,10 +5,14 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-black?logo=framer&logoColor=white)](https://www.framer.com/motion/)
 [![Axios](https://img.shields.io/badge/Axios-1.7-5A29E4?logo=axios&logoColor=white)](https://axios-http.com/)
+[![Status](https://img.shields.io/badge/Status-Live%20Production-brightgreen)](https://ai-chatbot-app-three.vercel.app/)
 
 A calm, premium chat interface that consumes the **AI Chatbot API**. Built to feel like a modern 2025/2026 product—clean, focused, and fast.
 
 > ✨ **Minimal UI** · 🧠 **Conversation Memory** · 🔐 **JWT Auth** · 🎞️ **Subtle Motion**
+
+**Live App:** https://ai-chatbot-app-three.vercel.app/  
+**API:** https://p01--ai-chatbot-api--zn54zt65xhrv.code.run
 
 ---
 
