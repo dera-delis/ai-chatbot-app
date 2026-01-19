@@ -6,13 +6,17 @@
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-black?logo=framer&logoColor=white)](https://www.framer.com/motion/)
 [![Axios](https://img.shields.io/badge/Axios-1.7-5A29E4?logo=axios&logoColor=white)](https://axios-http.com/)
 [![Status](https://img.shields.io/badge/Status-Live%20Production-brightgreen)](https://ai-chatbot-app-three.vercel.app/)
+[![Live App](https://img.shields.io/badge/Live%20App-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-chatbot-app-three.vercel.app/)
 
 A calm, premium chat interface that consumes the **AI Chatbot API**. Built to feel like a modern 2025/2026 product—clean, focused, and fast.
 
 > ✨ **Minimal UI** · 🧠 **Conversation Memory** · 🔐 **JWT Auth** · 🎞️ **Subtle Motion**
 
-**Live App:** https://ai-chatbot-app-three.vercel.app/  
-**API:** https://p01--ai-chatbot-api--zn54zt65xhrv.code.run
+**Live App:**  
+[![Open App](https://img.shields.io/badge/Open%20App-Live%20Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-chatbot-app-three.vercel.app/)
+
+**API:**  
+[![Open API](https://img.shields.io/badge/Open%20API-Northflank-1f9d6a?style=for-the-badge)](https://p01--ai-chatbot-api--zn54zt65xhrv.code.run)
 
 ---
 
