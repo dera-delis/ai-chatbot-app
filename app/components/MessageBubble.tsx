@@ -17,13 +17,13 @@ export function MessageBubble({ message }: MessageBubbleProps) {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -8 }}
       transition={{ duration: 0.2 }}
-      className={`flex ${isUser ? "justify-end" : "justify-start"}`}
+      className="w-full"
     >
       <div
-        className={`max-w-[70%] rounded-2xl px-4 py-3 text-sm leading-relaxed ${
+        className={`whitespace-pre-wrap break-words text-[15px] leading-7 ${
           isUser
-            ? "bg-[var(--accent)]/20 text-white"
-            : "bg-[var(--panel-soft)] text-slate-100"
+            ? "ml-auto max-w-[70%] rounded-2xl bg-[var(--accent)]/20 px-4 py-3 text-white"
+            : "w-full rounded-2xl border border-[var(--border)] bg-[var(--panel)]/70 px-4 py-4 text-slate-100"
         }`}
       >
         {message.content}
