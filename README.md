@@ -66,7 +66,7 @@ This frontend delivers a premium AI chat experience: sidebar navigation, history
 ## ⚙️ **Environment**
 Create `.env.local`:
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:8000
+NEXT_PUBLIC_API_URL=https://ai-chatbot-api-production-649502293238.us-central1.run.app
 ```
 
 ---

@@ -2,7 +2,8 @@ import axios from "axios";
 
 import { AuthCredentials, AuthToken, ChatSendRequest, ChatSendResponse, ChatSession, User } from "./types";
 
-const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+const productionBaseUrl = "https://ai-chatbot-api-production-649502293238.us-central1.run.app";
+const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL ?? productionBaseUrl;
 
 export const api = axios.create({
   baseURL: apiBaseUrl,
