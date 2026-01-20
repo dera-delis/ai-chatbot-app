@@ -16,13 +16,13 @@ export function MessageList() {
   }, [messages, typing]);
 
   return (
-    <div className="flex h-full flex-col overflow-y-auto px-10 py-10">
+    <div className="flex h-full flex-col overflow-y-auto px-6 py-8 md:px-10 md:py-10">
       {messages.length === 0 ? (
         <div className="flex flex-1 items-center justify-center text-sm text-slate-500">
           Start a conversation with your assistant.
         </div>
       ) : (
-        <div className="space-y-6">
+        <div className="mx-auto w-full max-w-3xl space-y-6">
           <AnimatePresence initial={false}>
             {messages.map((message, index) => (
               <MessageBubble key={message.id ?? `${message.role}-${index}`} message={message} />
